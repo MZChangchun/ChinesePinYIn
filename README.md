@@ -6,7 +6,8 @@
 优点：这个方法返回的数据中，你传入的数据没有任何丢失。
 
 你只需要在你的代码中需要的地方，添加 `#import "MZPinYIn.h"`
-在你需要排序的数组中这样写 NSArray * arrayResult = [MZPinYIn chinesePinYinGroupUp:array];//array是一个NSArray
+在你需要排序的数组中这样写
+```NSArray * arrayResult = [MZPinYIn chinesePinYinGroupUp:array];//array是一个NSArray```
 你就会获取到一个已经排好顺序的数组。此时，已经把你的数组分组排列好了。
 
 如果你想获取这个数组，这也很简单：
