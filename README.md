@@ -10,6 +10,7 @@
 你就会获取到一个已经排好顺序的数组。此时，已经把你的数组分组排列好了。
 
 如果你想获取这个数组，这也很简单：
+```
 for (int i = 0; i < arrayResult.count ; i++) {
         MyJSON * jsonc = (MyJSON *)arrayResult[i];
         NSLog(@"--------%@--------", jsonc.initial);
@@ -17,6 +18,7 @@ for (int i = 0; i < arrayResult.count ; i++) {
             NSLog(@"\t%@",dic);
         }
     }
+    ```
 这就是你的数据
 
 
